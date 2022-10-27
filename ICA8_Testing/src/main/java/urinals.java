@@ -12,4 +12,17 @@ public class urinals {
         System.out.println("Author:Sai Susmita Edara");
     }
 
+    public boolean good_string(String str)
+    {
+        if(str.matches("[01][10]"))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+
 }
