@@ -10,7 +10,7 @@ class urinalsTest {
 
     @Test
     void goodString() {
-        assertEquals(false, urinals.goodString("100001"));
+        assertEquals(true, urinals.goodString("10101"));
         System.out.println("======Sai Susmita Edara==Test Two Executed======");
 
     }
