@@ -21,6 +21,8 @@ class urinalsTest {
 
     @Test
     void urinalscount() {
+        assertEquals(true, urinals.goodString("100010001"));
+        System.out.println("======Sai Susmita Edara==Test Two Executed======");
     }
 
     @Test
