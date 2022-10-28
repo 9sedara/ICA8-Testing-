@@ -27,6 +27,8 @@ class urinalsTest {
         System.out.println("======Sai Susmita Edara==Test Two Executed======");
         assertEquals(3, urinals.urinalscount("00000"));
         System.out.println("======Sai Susmita Edara==Test Three Executed======");
+        assertEquals(2, urinals.urinalscount("0000"));
+        System.out.println("======Sai Susmita Edara==Test Four Executed======");
     }
 
     @Test
