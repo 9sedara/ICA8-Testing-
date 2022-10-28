@@ -10,11 +10,23 @@ class urinalsTest {
 
     @Test
     void goodString() {
-        assertEquals(true, urinals.goodString("101010101"));
+        assertEquals(true, urinals.goodString("10001"));
+        System.out.println("======Sai Susmita Edara==Test One Executed======");
+
+        assertEquals(true, urinals.goodString("1001"));
         System.out.println("======Sai Susmita Edara==Test Two Executed======");
 
-        assertEquals(false, urinals.goodString("1111111111"));
-        System.out.println("======Sai Susmita Edara==Test Two Executed======");
+        assertEquals(true, urinals.goodString("00000"));
+        System.out.println("======Sai Susmita Edara==Test Three Executed======");
+
+        assertEquals(true, urinals.goodString("0000"));
+        System.out.println("======Sai Susmita Edara==Test Four Executed======");
+
+        assertEquals(true, urinals.goodString("01000"));
+        System.out.println("======Sai Susmita Edara==Test Five Executed======");
+        assertEquals(false, urinals.goodString("011"));
+        System.out.println("======Sai Susmita Edara==Test Six Executed======");
+
 
     }
 
