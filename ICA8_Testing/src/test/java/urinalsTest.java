@@ -32,18 +32,18 @@ class urinalsTest {
 
 
     @Test
-    void urinalscount() {
-        assertEquals(1, urinals.urinalscount("10001"));
+    void urinals_count() {
+        assertEquals(1, urinals.urinals_count("10001"));
         System.out.println("======Sai Susmita Edara==Test One Executed======");
-        assertEquals(0, urinals.urinalscount("1001"));
+        assertEquals(0, urinals.urinals_count("1001"));
         System.out.println("======Sai Susmita Edara==Test Two Executed======");
-        assertEquals(3, urinals.urinalscount("00000"));
+        assertEquals(3, urinals.urinals_count("00000"));
         System.out.println("======Sai Susmita Edara==Test Three Executed======");
-        assertEquals(2, urinals.urinalscount("0000"));
+        assertEquals(2, urinals.urinals_count("0000"));
         System.out.println("======Sai Susmita Edara==Test Four Executed======");
-        assertEquals(1, urinals.urinalscount("01000"));
+        assertEquals(1, urinals.urinals_count("01000"));
         System.out.println("======Sai Susmita Edara==Test Five Executed======");
-        assertEquals(-1, urinals.urinalscount("011"));
+        assertEquals(-1, urinals.urinals_count("011"));
         System.out.println("======Sai Susmita Edara==Test Six Executed======");
     }
 

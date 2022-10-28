@@ -12,7 +12,7 @@ public class urinals {
             System.out.println("invalid string, print -1");
         }
         else {
-            int b=urinalscount(str);
+            int b=urinals_count(str);
             System.out.println(b);
         }
 
@@ -34,7 +34,7 @@ public class urinals {
         return true;
     }
 
-    public static int urinalscount(String str)
+    public static int urinals_count(String str)
     {
         int[]p=new int[str.length()];
         for(int i=0;i<p.length;i++)
@@ -106,7 +106,7 @@ public class urinals {
     }
     public static String getString(){
         Scanner scr=new Scanner(System.in);
-        System.out.println("Enter the string:");
+        System.out.println("Enter string:");
         String str=scr.next();
         return str;
     }
