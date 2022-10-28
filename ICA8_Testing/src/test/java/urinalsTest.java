@@ -4,13 +4,22 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class urinalsTest {
 
-    urinals ur=new urinals();
-    String str="000101";
+    @Test
+    void main() {
+    }
 
     @Test
-    void good_string()
-    {
+    void goodString() {
+        assertEquals(false,urinals.goodString("1000001111"));
+        System.out.println("======Sai Susmita Edara==Test Two Executed======");
 
-        System.out.println("============Susmita===Test one Ececuted");
+    }
+
+    @Test
+    void urinalscount() {
+    }
+
+    @Test
+    void getString() {
     }
 }
