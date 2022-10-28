@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class urinals {
 
-
-
-
     public static void main(String[] args) {
         String ln= getString();
         boolean a=goodString(ln);
