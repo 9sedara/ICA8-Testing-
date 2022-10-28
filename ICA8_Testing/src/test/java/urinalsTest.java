@@ -10,9 +10,20 @@ class urinalsTest {
 
     @Test
     void goodString() {
-        assertEquals(true, urinals.goodString("100001"));
+        assertEquals(true, urinals.goodString("101010101"));
+        System.out.println("======Sai Susmita Edara==Test Two Executed======");
+
+        assertEquals(false, urinals.goodString("1111111111"));
         System.out.println("======Sai Susmita Edara==Test Two Executed======");
 
     }
 
+
+    @Test
+    void urinalscount() {
+    }
+
+    @Test
+    void getString() {
+    }
 }
